@@ -1,0 +1,65 @@
+.border{
+    border: 2px solid  red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background-attachment: fixed;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.rounded{
+    border-radius: 12px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff00cc, #333399); /* Modern gradient thumb */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.05); /* Glass-like track */
+  }
+  
+  /* For Firefox */
+  scrollbar-color: #ff00cc rgba(255, 255, 255, 0.05);
+  
